@@ -1,0 +1,25 @@
+/* All odd numbered elements */
+#wrapper .N1,
+#wrapper .N3,
+#wrapper .N5 {
+    background-color: lightpink;
+    font-family: "Verdana", "DejaVu Sans", sans-serif;
+}
+
+/* Second element */
+#wrapper #ID2 {
+    color: blue;
+    font-size: 36px;
+}
+
+/* Third element - Overriding first rule */
+#wrapper .N3 {
+    font-size: 24px;
+}
+
+/* Fourth element - Overriding first rule */
+#wrapper #ID4  {
+    font-size: 24px;
+    background-color: lightgreen;
+    font-weight: bold;
+}
